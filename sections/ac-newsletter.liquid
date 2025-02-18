@@ -1,0 +1,68 @@
+<section class="ac-newsletter">
+  <div class="ac-news-row">
+    <div class="section">
+      <div class="ac-news-wrap">
+        <div class="ac-news-head">
+          <h3 class="ac-news-top-heading">
+            Together, we can build a healthier world. Product news, special offers, ways to make an impact, and so much
+            more
+          </h3>
+          <h5 class="ac-news-top-sub-heading">
+            Join our community and discover how, together, we can build a healthier world.
+          </h5>
+        </div>
+        <div class="ac-news-inner-wrap">
+          <div class="ac-news-banner">
+            {% if section.settings.img != blank %}
+              <img src="{{ section.settings.img | img_url : 'master' }}" class="img-res">
+            {% endif %}
+            <div class="ac-news-banner-content">
+              <h3 class="ac-news-banner-heading">Together, we can build a healthier world.</h3>
+              <p class="ac-news-banner-des">Product news, special offers, ways to make an impact, and so much more.</p>
+            </div>
+          </div>
+          <div class="ac-news-form-wrap">
+            {% form 'customer', class: 'ac-news-form' %}
+              <input
+                type="text"
+                placeholder="Name"
+                class="ac-news-field"
+                name="contact[name]"
+              >
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="ac-news-field"
+                name="contact[email]"
+              >
+              <input
+                type="number"
+                placeholder="Phone Number"
+                class="ac-news-field"
+                name="contact[phone_number]"
+              >
+              <button type="submit" class="ac-news-submit">{% if form.posted_successfully? %}Subscribed!{% else %}Join Now{% endif %}</button>
+            {% endform %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "<> Newsletter",
+  "settings": [
+    {
+ "type": "image_picker",
+  "id": "img",
+  "label": "bg"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Newsletter"
+    }
+  ]
+}
+{% endschema %}

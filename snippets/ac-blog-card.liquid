@@ -1,0 +1,47 @@
+<div class="ac-main-blog">
+  <div class="ac-main-blog-media">
+    {% if article.metafields.custom.youtube_video != blank %}
+      {% assign id = article.metafields.custom.youtube_video | split: '?v=' %}
+      <iframe
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/{{ id[1] }}?autoplay=1&loop=1&mute=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    {% else %}
+      {% if article.metafields.custom.video.value != blank %}
+        <video width="320" height="240" loop autoplay muted>
+          <source src="{{ article.metafields.custom.video.value.sources[1].url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% else %}
+        <img src="{{ article.image | img_url : 'master' }}" class="img-res blog-img">
+      {% endif %}
+    {% endif %}
+  </div>
+  <div class="ac-main-blog-content-wrap">
+    <div class="ac-main-blog-content">
+      <h3 class="ac-main-blog-heading">{{ article.title | truncatewords: 6 }}</h3>
+      <div class="ac-main-blog-des">
+        {% if article.excerpt != blank %}
+          {{ article.excerpt }}
+        {% else %}
+          {{ article.content | truncatewords: 30 }}
+        {% endif %}
+      </div>
+    </div>
+    <div class="ac-main-blog-content-bottom">
+      <h4 class="ac-main-blog-type">
+        {% if category.title != blank %}{{ category.title }}{% else %}Uncategoried{% endif %}
+      </h4>
+      <a href="{{ article.url }}" class="ac-main-blog-btn">
+        {%- if article.metafields.custom.read_history != blank %}{{ article.metafields.custom.read_history }}{% endif %}
+        Read</a
+      >
+    </div>
+  </div>
+</div>

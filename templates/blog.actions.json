@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "2b8e9e53-48bd-46c7-8765-76d23a54a90a": {
+          "type": "link",
+          "settings": {
+            "navigation_link_text": "All",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day"
+          }
+        },
+        "66c5077e-708b-42d1-9412-44bd235c36eb": {
+          "type": "link",
+          "settings": {
+            "navigation_link_text": "Actions",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/all-actions"
+          }
+        },
+        "f4dae2e1-2221-4eda-b23b-f0d9afcb9732": {
+          "type": "link",
+          "settings": {
+            "navigation_link_text": "Community",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/community"
+          }
+        },
+        "1bc939d9-c8de-4192-b578-c15447f40fe9": {
+          "type": "link",
+          "settings": {
+            "navigation_link_text": "Stories",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/stories"
+          }
+        }
+      },
+      "block_order": [
+        "2b8e9e53-48bd-46c7-8765-76d23a54a90a",
+        "66c5077e-708b-42d1-9412-44bd235c36eb",
+        "f4dae2e1-2221-4eda-b23b-f0d9afcb9732",
+        "1bc939d9-c8de-4192-b578-c15447f40fe9"
+      ],
+      "settings": {
+        "show_tag_nav": true,
+        "article_per_page": 12,
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": false,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true
+      }
+    },
+    "be1a6c61-ffcc-409b-bd42-4602baebc538": {
+      "type": "blog-posts",
+      "blocks": {
+        "e808265e-383c-420c-95e5-7e361dcd03e4": {
+          "type": "article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "e808265e-383c-420c-95e5-7e361dcd03e4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "View all posts",
+        "display_type": "all",
+        "blog": "",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "272d466f-25f4-4256-89ed-b164682a870a": {
+      "type": "image-hero",
+      "blocks": {
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-accent-1": {
+          "type": "accent",
+          "settings": {
+            "accent": "collaboration with"
+          }
+        },
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "CHEPS",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "59b590c4-8c4d-41c5-9a9c-5e42a757165a": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "(Chitral heritage environment protection society)",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aim to make the next generation more conscious of environment problems and helping them experience their surroundings as responsible citizens.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "bace138a-fe2b-45f9-8044-4314df8a3438": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-accent-1",
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-heading-1",
+        "59b590c4-8c4d-41c5-9a9c-5e42a757165a",
+        "template--21158786466110__272d466f-25f4-4256-89ed-b164682a870a-text-1",
+        "bace138a-fe2b-45f9-8044-4314df8a3438"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 90,
+        "mobile_height": 85,
+        "image": "shopify://shop_images/DSC00478_73de6392-015e-4c47-8aa1-0e723c928b4c.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "flex-start_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 16,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "3a0bce60-c218-4dc1-9eda-26f5b5c572cb": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 24
+          }
+        },
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Join Our Community",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Together, we can build a healthier world. Product news, special offers, ways to make an impact, and so much more</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-2": {
+          "type": "spacer",
+          "settings": {
+            "space": 4
+          }
+        },
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-newsletter_signup-1": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Subscribe Now"
+          }
+        },
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 24
+          }
+        }
+      },
+      "block_order": [
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-1",
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-heading-1",
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-text-1",
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-2",
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-newsletter_signup-1",
+        "template--21158786466110__3a0bce60-c218-4dc1-9eda-26f5b5c572cb-spacer-3"
+      ],
+      "settings": {
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#8b8778",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 550
+      }
+    },
+    "b5338313-e0cd-4845-860f-a24831db530a": {
+      "type": "image-hero",
+      "blocks": {
+        "template--21158786466110__b5338313-e0cd-4845-860f-a24831db530a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Earth Tax Initiative",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "f46c0874-70f0-4d2a-b1c9-84e064eb22fe": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Initiative",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "template--21158786466110__b5338313-e0cd-4845-860f-a24831db530a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At North Naturals we've committed to giving back to the planet by offering an Earth tax of 2.5%.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "c228ca9b-9db2-4ea3-81c8-52f86ac3f2f6": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--callout"
+          }
+        }
+      },
+      "block_order": [
+        "template--21158786466110__b5338313-e0cd-4845-860f-a24831db530a-heading-1",
+        "f46c0874-70f0-4d2a-b1c9-84e064eb22fe",
+        "template--21158786466110__b5338313-e0cd-4845-860f-a24831db530a-text-1",
+        "c228ca9b-9db2-4ea3-81c8-52f86ac3f2f6"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 80,
+        "mobile_height": 80,
+        "image": "shopify://shop_images/DSC00436_878f9262-7928-4cf8-ace9-e9ab9b51a437.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "flex-start_center",
+        "text_position_mobile": "flex-start_flex-end",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 24,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "be1a6c61-ffcc-409b-bd42-4602baebc538",
+    "272d466f-25f4-4256-89ed-b164682a870a",
+    "3a0bce60-c218-4dc1-9eda-26f5b5c572cb",
+    "b5338313-e0cd-4845-860f-a24831db530a"
+  ]
+}

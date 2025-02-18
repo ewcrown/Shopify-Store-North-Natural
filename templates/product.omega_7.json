@@ -1,0 +1,613 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": false,
+            "show_sku": false,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "settings": {
+            "icon_1": "leaf",
+            "text_1": "100% Organic",
+            "icon_2": "moving-truck",
+            "text_2": "Fast Shipping",
+            "icon_3": "chat",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "measuring-tape",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "siblings_show_product_image": true,
+            "siblings_option_name": "Color",
+            "chip_layout": "3col"
+          }
+        },
+        "inventory_counter": {
+          "type": "inventory-counter",
+          "disabled": true,
+          "settings": {
+            "label": "Availability",
+            "inventory_max": "100",
+            "low_inventory_threshold": "40",
+            "show_status_bar": true,
+            "show_untracked_quantity": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "product_callouts-1": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "none",
+            "text_1": "<p><strong>Ideal for Skin Types: </strong>Dry, Mature,  Sensitive, Combination</p>",
+            "icon_2": "none",
+            "text_2": "<p><strong>Scent: </strong>Natural hint of Vanilla</p>",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts-2": {
+          "type": "product_callouts",
+          "settings": {
+            "title": "",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "moving-truck",
+            "text_1": "<p>Free shipping all across Pakistan</p>",
+            "icon_2": "question-mark",
+            "text_2": "<p>Have questions? <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact us</a></p>",
+            "icon_3": "paper-airplane",
+            "text_3": "<p><a href=\"/pages/faq\" target=\"_blank\" title=\"FAQ\">FAQ</a></p>",
+            "icon_4": "chat",
+            "text_4": "<p><a href=\"/pages/reviews\" target=\"_blank\" title=\"Reviews\">Reviews</a></p>",
+            "icon_5": "padlock",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "Description",
+            "text_font_class": "fs-body-100",
+            "column_placement": "left",
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Benefits",
+            "content": "<p>{{ product.metafields.custom.xyz | metafield_tag }}</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "How to use",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "286356ec-e091-49e8-ac33-600faaf6daa5": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Precautions",
+            "content": "<p>{{ product.metafields.custom.precautions | metafield_tag }}</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "8157b3da-c138-493e-ae43-74761b572170": {
+          "type": "featured_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "column_placement": "left",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [
+              "omega-7-soft-gels",
+              "sea-buckthorn-oil",
+              "apricotkerneloil",
+              "omega-7-bundle-pack-of-2",
+              "juniper-berry-oil"
+            ],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "767da439-7faa-49a3-84bf-b405ebd018c9": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_header",
+        "product_callouts_mini",
+        "variant_picker",
+        "inventory_counter",
+        "quantity_selector",
+        "buy_buttons",
+        "product_callouts-1",
+        "product_callouts-2",
+        "share",
+        "description",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "286356ec-e091-49e8-ac33-600faaf6daa5",
+        "8157b3da-c138-493e-ae43-74761b572170",
+        "767da439-7faa-49a3-84bf-b405ebd018c9"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": true,
+        "gallery_style": "thumbnails",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "large",
+        "gallery_overflow": "2",
+        "enable_video_looping": true,
+        "enable_product_lightbox": true,
+        "image_aspect_ratio": "square",
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "098b2243-ec6c-4432-bfb2-f9132cd96b74": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21283824599358__098b2243-ec6c-4432-bfb2-f9132cd96b74-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "template--21283824599358__098b2243-ec6c-4432-bfb2-f9132cd96b74-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sea buckthorn Omega-7 Soft gels offer a natural and holistic approach to health and well-being, backed by centuries of traditional wisdom and modern scientific research. Discover the transformative potential of sea buckthorn, and embark on a journey toward a healthier, happier you. Join us in unlocking the power of nature with Seabuckthorn Omega-7 Softgels.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--21283824599358__098b2243-ec6c-4432-bfb2-f9132cd96b74-heading-1",
+        "template--21283824599358__098b2243-ec6c-4432-bfb2-f9132cd96b74-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1965c8ae-e2a9-41ba-b53d-6f490573168e": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "What is Sea Buckthorn Oil?",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "31e4051b-40ca-415c-9e5e-88272e5ee0bb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sea buckthorn is a plant that produces orange berries rich in nutrients. Sea Buckthorn Oil is an extract made from the seeds or fruit pulp of the sea buckthorn plant. It contains a variety of beneficial compounds, including vitamins, antioxidants, and Omega-7 fatty acids.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-accent-1",
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-heading-1",
+        "template--21283824599358__1965c8ae-e2a9-41ba-b53d-6f490573168e-subheading-1",
+        "31e4051b-40ca-415c-9e5e-88272e5ee0bb"
+      ],
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/ad67b702-5ade-4a97-a503-ec3c32fd80a1.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#bab7aa",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "a8938400-5eb3-4afc-a2f5-606c8e3aa6d1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21283824599358__a8938400-5eb3-4afc-a2f5-606c8e3aa6d1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The Richest Source of Omega-7 ",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "template--21283824599358__a8938400-5eb3-4afc-a2f5-606c8e3aa6d1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the purest and most potent omega-7 supplements and skin care products made with unadulterated premium organic sea buckthorn!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--21283824599358__a8938400-5eb3-4afc-a2f5-606c8e3aa6d1-heading-1",
+        "template--21283824599358__a8938400-5eb3-4afc-a2f5-606c8e3aa6d1-text-1"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "002bbe94-4e46-4e1c-bd45-b87f511f0759": {
+      "type": "image-hero",
+      "blocks": {
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Essential nutrients for optimal health",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-accent-1",
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-heading-1",
+        "template--21283824599358__002bbe94-4e46-4e1c-bd45-b87f511f0759-text-1"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 75,
+        "mobile_height": 80,
+        "image": "shopify://shop_images/6ea4e459-ce47-47a4-8d4c-043ae16980c5.jpg",
+        "image_mobile": "shopify://shop_images/6ea4e459-ce47-47a4-8d4c-043ae16980c5.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "flex-start_center",
+        "text_position_mobile": "flex-start_flex-end",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 24,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "3af7e155-1901-48e8-9686-042de8ad7e53": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are your products authentic?",
+            "text": "<p>Our company is a registered entity in SECP and most of our products are certified from DRAP (Drug Regulatory Authority of Pakistan)</p>"
+          }
+        },
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are your products all natural/organic?",
+            "text": "<p>Our product line comes from wild collection, a step ahead of organic, grown in natural environment away from chemicals, herbicides and pesticides.</p>"
+          }
+        },
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the side effects of your products?",
+            "text": "<p>Our products are sourced and produced organically and naturally, containing no known side effects. They are safe for use.</p>"
+          }
+        },
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-4": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I track my order?",
+            "text": "<p>Once you place an order with us, you will receive tracking email updates as soon as your parcel is dispatched from our end, and a tracking number to easily follow the journey of your package.</p><p>If you have any questions or concerns about your order, don’t hesitate to reach out at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a> or else call/WhatsApp us +92327 8859969  </p>"
+          }
+        },
+        "e4576887-a912-42d7-8c0d-fc7847b556c1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you offer return or exchange?",
+            "text": "<p>Our customers are the center of our business, and we strive to ensure purity of our products. For details on exchanges & return policy, please visit <a href=\"https://305de2.myshopify.com/pages/returns\" target=\"_blank\" title=\"Returns\"><strong>here</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-1",
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-2",
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-3",
+        "template--19973347049790__3af7e155-1901-48e8-9686-042de8ad7e53-item-4",
+        "e4576887-a912-42d7-8c0d-fc7847b556c1"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "da55edeb-2ea6-49eb-90e3-c2389ac75890": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-accent-1": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Plants Over Pharm",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography.",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "acbaaeec-a398-49a5-b9d3-8d87ebef4429": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🌿 100% Organic<br/>🌱 Vegan<br/>🌾 Gluten-Free<br/>🧬 Non-GMO<br/>🚫 Preservative-Free<br/>🎨 Color-Free</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-accent-1",
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-heading-1",
+        "template--19973347049790__da55edeb-2ea6-49eb-90e3-c2389ac75890-subheading-1",
+        "acbaaeec-a398-49a5-b9d3-8d87ebef4429"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/6ea4e459-ce47-47a4-8d4c-043ae16980c5.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#312916",
+        "text_color": "#fdf6e7",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "Recommended Products",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1701690793953ebc2a": {
+      "type": "apps",
+      "blocks": {
+        "2f182e80-048c-49b1-808a-35dd4cac7fa3": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "2f182e80-048c-49b1-808a-35dd4cac7fa3"
+      ],
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0576994d-242e-497e-8ff0-1a2fd1cd9a76": {
+      "type": "countdown-bar",
+      "settings": {
+        "min_height": 60,
+        "min_height_mobile": 60,
+        "year": 0,
+        "month": "january",
+        "day": "1",
+        "hour": "0",
+        "minute": "0",
+        "time_zone_selection": "shop",
+        "hide_timer_on_complete": true,
+        "timer_complete_message": "",
+        "heading": "Pure Plant Based, 100% Organic",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "098b2243-ec6c-4432-bfb2-f9132cd96b74",
+    "1965c8ae-e2a9-41ba-b53d-6f490573168e",
+    "a8938400-5eb3-4afc-a2f5-606c8e3aa6d1",
+    "002bbe94-4e46-4e1c-bd45-b87f511f0759",
+    "3af7e155-1901-48e8-9686-042de8ad7e53",
+    "da55edeb-2ea6-49eb-90e3-c2389ac75890",
+    "recommendations",
+    "1701690793953ebc2a",
+    "0576994d-242e-497e-8ff0-1a2fd1cd9a76"
+  ]
+}

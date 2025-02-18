@@ -1,0 +1,38 @@
+{% assign s = section.settings %}
+
+<section class="ac-blogs">
+  <div class="ac-blogs-row">
+    <div class="section">
+      <div class="ac-blogs-wrap">
+        <div class="ac-blogs-col-1">
+          <img src="{{ 'bg.png' | file_url }}" class="img-res blog-img">
+          <div class="ac-blogs-col-1-content">
+            <h3 class="ac-blogs-col-1-heading">{{ s.blog.title }}</h3>
+            <a href="/blogs/{{ s.blog.handle }}" class="ac-blogs-col-1-btn">View All</a>
+          </div>
+        </div>
+        {% for article in s.blog.articles limit: 2 %}
+          {% render 'ac-blog-card', category: s.blog, article: article %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Blogs",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    }
+  ],
+  "presets": [
+    {
+  "name": "<> Blogs"
+    }
+  ]
+}
+{% endschema %}

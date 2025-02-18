@@ -1,0 +1,59 @@
+{% assign s = section.settings %}
+<section class="ac-highlight">
+  <div class="ac-hi-row">
+    <div class="section">
+      <div class="ac-hi-wrap">
+        <div class="ac-hi-head">
+          {% if s.title != blank %}
+            <h3 class="ac-hi-heading">{{ s.title }}</h3>
+          {% endif %}
+          {% if s.sub_title != blank %}
+            <p class="ac-hi-des">{{ s.sub_title }}</p>
+          {% endif %}
+        </div>
+        <div class="ac-hi-inner-wrap" id="articles-container">
+          {% for article in s.blog.articles %}
+            {% render 'ac-blog-card', article: article %}
+          {% endfor %}
+        </div>
+        {% if s.blog.articles.size > 6 %}        
+        <div class="ac-load-more-blogs-wrap">
+          <button class="ac-btn" id="load-more-btn">Load more</button>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Highlights",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Here",
+      "default": "Highlights"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Title Here",
+      "default": "Lorem ipsum dolor sit amet consectetur. Molestie amet ornare lorem nunc."
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    }
+  ],
+  "presets": [
+    {
+    "name": "<> Highlights"
+    }
+
+  ]
+
+}
+{% endschema %}

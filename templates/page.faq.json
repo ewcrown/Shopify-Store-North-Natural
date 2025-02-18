@@ -1,0 +1,872 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "block-1": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our customers are the center of our business, and we strive to ensure purity of our products.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich-text-2": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Orders",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are some of are common questions about orders</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible-row-list-1": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long will my order take to be delivered",
+            "text": "<p>Our delivery times nationwide are 3-5 days after your order has been confirmed. Orders within Islamabad can arrive within 1-2 days after your order has been confirmed. The delivery time of all orders is subject to change depending on weather and public safety conditions.</p>"
+          }
+        },
+        "fecaeb76-9d3e-4673-a8af-2003493c0772": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What do I do if my order was delayed or lost during delivery?",
+            "text": "<p>We are really sorry for this delay and that your package has not been delivered to you on time. </p><p>Please reach out to us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a></p>"
+          }
+        },
+        "618b48de-f4d3-41a1-910a-92ac4c344b03": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I change or cancel my order after it has been placed?",
+            "text": "<p>Yes, you can change or cancel your order in 3 hours after the order completion. Please write to us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a> or call/WhatsApp at <strong>+92</strong> 327 8859969</p>"
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Unable to place order what to do?",
+            "text": "<p>If you experience any difficulty placing an order, please contact us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a>  or call or WhatsApp us at +92 <strong>327 8859969. </strong>Our lines are open Monday through Saturday from 10 am to 6:00 pm. <strong>Please note</strong> that if you e-mail or WhatsApp us outside working hours, we endeavor to get back to you within 24 hours.</p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What do I do if the product arrives damaged?",
+            "text": "<p>If you have received a damaged, or defected product, you can write to us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a> and our customer service representative will facilitate you in the best way possible. Please make sure to contact our team within 48 hours after receiving your order. Complaints made after 48 hours will not be facilitated.</p>"
+          }
+        },
+        "b0ac10a6-59a1-4c07-8834-97c52042c132": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What is your payment method?",
+            "text": "<p>You can pay online through any bank. Our online payment method is secured. We also offer cash on delivery.</p>"
+          }
+        },
+        "ae80352f-ebac-4bb9-9396-043cbd737375": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How secure is your online payment method?",
+            "text": "<p>North Naturals follow strict customer data security policy through end-to-end data encryption.</p>"
+          }
+        },
+        "6704d7ec-4963-4036-abdf-c24d0a68d804": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How can I contact North Naturals customer care representative?",
+            "text": "<p>You can write to us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a> or call/ Whatsapp us at <strong>+92</strong> 327 8859969 and our customer service representative will facilitate you in the best way possible.</p>"
+          }
+        },
+        "77bd5764-58c1-4ec4-b026-cc56f35a9dc5": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are the product prices inclusive of tax?",
+            "text": "<p>Yes our product prices are inclusive of tax</p>"
+          }
+        },
+        "a0f2706e-5e69-4c76-9240-0b8332287af8": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you share customs information on Internet?",
+            "text": "<p>We do not share or sell any information you submit to the North Naturals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "fecaeb76-9d3e-4673-a8af-2003493c0772",
+        "618b48de-f4d3-41a1-910a-92ac4c344b03",
+        "block-1",
+        "block-3",
+        "b0ac10a6-59a1-4c07-8834-97c52042c132",
+        "ae80352f-ebac-4bb9-9396-043cbd737375",
+        "6704d7ec-4963-4036-abdf-c24d0a68d804",
+        "77bd5764-58c1-4ec4-b026-cc56f35a9dc5",
+        "a0f2706e-5e69-4c76-9240-0b8332287af8"
+      ],
+      "settings": {
+        "title": "Orders & Payments",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich-text-3": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping & Returns",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are some common questions about shipping, returns, and exchanges</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible-row-list-2": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you ship globally?",
+            "text": "<p>We do ship globally. You can place your order at www.northnaturals.com and contact us at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a> for further information about shipping rates.</p>"
+          }
+        },
+        "6375f0fe-894a-4915-b80f-87318f2b0b43": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I change the address/details of my order?",
+            "text": "<p>Once an order is placed, we cannot make any changes as we have a very quick turnaround time to get your order to you as fast as possible. So please ensure that you double check your details when entering them at checkout. </p><p>or else inform us on call/ WhatsApp <strong>+92</strong> 327 8859969 ASAP</p>"
+          }
+        },
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I return a product?",
+            "text": "<p>Our customers are the center of our business, and we strive to ensure purity of our products. For details on our refunds & exchanges policy, please visit <a href=\"/pages/returns\" target=\"_blank\" title=\"Returns\"><strong>here</strong></a></p>"
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How much is shipping?",
+            "text": "<p>We offer free delivery all across Pakistan.</p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you offer exchange?",
+            "text": "<p>Our customers are the center of our business, and we strive to ensure purity of our products. For details on exchanges policy, please visit <a href=\"/pages/returns\" target=\"_blank\" title=\"Returns\"><strong>here</strong></a></p>"
+          }
+        },
+        "eb31ba8e-2319-4344-91e1-162b0bb2285f": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I track my order?",
+            "text": "<p>Once you place an order with us, you will receive tracking email updates as soon as your parcel is dispatched from our end, and a tracking number to easily follow the journey of your package.</p><p>If you have any questions or concerns about your order, don’t hesitate to reach out at <a href=\"mailto:support@northnaturals.com\" target=\"_blank\" title=\"mailto:support@northnaturals.com\">support@northnaturals.com</a></p>"
+          }
+        },
+        "bb35313f-89b6-4a59-84b0-36f52c144ac9": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What shipping carriers do you use?",
+            "text": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.</p>"
+          }
+        },
+        "2c68c55a-72af-430f-81ac-1cf600276ca7": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Where does your product ship from?",
+            "text": "<p>Our products are made in Chitral, Pakistan, and our products are shipped from our Islamabad warehouse.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-2",
+        "6375f0fe-894a-4915-b80f-87318f2b0b43",
+        "block-0",
+        "block-1",
+        "block-3",
+        "eb31ba8e-2319-4344-91e1-162b0bb2285f",
+        "bb35313f-89b6-4a59-84b0-36f52c144ac9",
+        "2c68c55a-72af-430f-81ac-1cf600276ca7"
+      ],
+      "settings": {
+        "title": "Shipping & Returns",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich-text-4": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Products",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are some common questions about our products</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible-row-list-3": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "4e810f61-a641-4a83-ac1e-354a6bf478f0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are you products authentic?",
+            "text": "<p>Our company is a registered entity in SECP and most of our products are certified from DRAP (drug regulatory authority of Pakistan )</p>"
+          }
+        },
+        "block-0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are essential oils safe for children?",
+            "text": "<p>Essential oils are not generally recommended for children due to possible skin reaction and respiratory issues.</p>"
+          }
+        },
+        "block-1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are your products organic?",
+            "text": "<p>Our product line comes from wild collection, a step ahead of organic, grown in natural environment away from chemicals, herbicides and pesticides.</p>"
+          }
+        },
+        "block-2": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can we use your products for internal purpose?",
+            "text": "<p>Yes, but as per the instructions mentioned on the box.</p>"
+          }
+        },
+        "block-3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How your essential oils are extracted?",
+            "text": "<p>Our essential oils are extracted through steam and hydro distillation. Himalayan cider oil, juniper berry oil, pine oil and artemisia oil are extracted through steam distillation, while fixed oils including sea buckthorn, apricot oil and onion oil are extracted through cold press methods.</p>"
+          }
+        },
+        "bae79db5-7393-4c46-8b5b-c3f1b49a1fdb": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are the sea buckthorn capsules digestible/ can we take them orally?",
+            "text": "<p>Since it is a dietary supplement, these soft gels are completely okay for oral intake.</p>"
+          }
+        },
+        "2933e48a-b3b2-4754-abea-540d061e4682": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What's better sea buckthorn oil or capsules?",
+            "text": "<p>Both products are slightly similar but it depends on what you want to use them for.</p>"
+          }
+        },
+        "0d0c5099-35e3-4077-a6da-d06ea6d2d470": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does your facial serum make skin oily?",
+            "text": "<p>Our facial serum doesn't leave a very oily effect on the skin because it gets absorbed after some time, leaving your skin nicely hydrated.</p>"
+          }
+        },
+        "247a1ad9-7432-4641-8116-b8f9c36d3cd5": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can we use facial serum and anti aging serum together?",
+            "text": "<p>Yes, you can use both of them together. However, it is advised to wait for an hour before applying one serum after another.</p>"
+          }
+        },
+        "22363ef3-7081-4595-b4dc-4ab91e079c7c": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Does your anti-aging serum leave a greasy residue on the skin after application?",
+            "text": "<p>Our anti-aging serum is designed to be lightweight and non-greasy, providing nourishment without leaving a heavy residue. It's easily absorbed into the skin and can be washed off effortlessly.</p>"
+          }
+        },
+        "a20652ad-589f-4a3d-9f48-55df7e331c24": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "I've just started taking OMEGA-7 soft gels. How soon will I experience the benefits?",
+            "text": "<p>When beginning, we recommend a starter dose of 2 capsules daily for 3 months. Afterward, a maintenance dose of 1 capsule daily is advised for at least 1 year.</p>"
+          }
+        },
+        "d083f220-6c16-4e13-a540-e62d6bc77a80": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Could you suggest a remedy for asthma?",
+            "text": "<p>Himalayan Cedarwood oil can be beneficial for asthma, bronchitis, and chest congestion. For relief, add 2-3 drops of Himalayan Cedarwood oil to hot water for steam inhalation, or use it in a diffuser. Before bedtime, you can also apply 2 drops of diluted Cedarwood oil to your chest and throat for added comfort and relief.</p><p>Please note that if you have severe asthma, it's important to consult a medical professional for proper guidance and treatment.</p>"
+          }
+        },
+        "a25e2bca-6b61-47c7-b2bf-28212f3486ff": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the side effects of your products?",
+            "text": "<p>Our products are sourced and produced organically and naturally, containing no known side effects. They are safe for use.</p>"
+          }
+        },
+        "712a957c-d9b0-44d7-ae41-ad58886f3e97": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Is the Anti-aging serum noncomedogenic for acne-prone skin?",
+            "text": "<p>Certainly, our Anti-aging serum is designed with your concerns in mind. It is formulated to be non-comedogenic, which means it won't clog your pores. This makes it a suitable choice for acne-prone skin, allowing you to enjoy the benefits of the serum without worrying about exacerbating breakouts.</p>"
+          }
+        },
+        "0f49fc65-09c7-4c51-ab75-f378fef744dc": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "I have pigmented and two-tone skin with dark spots. Can you suggest a suitable product?",
+            "text": "<p>Our facial serum blends Sea Buckthorn, Seed Oil and Rosehip Oil, both rich in skin-friendly compounds like beta-carotene, lycopene, and vitamin E. These elements can lighten dark spots, enhance complexion and promote an even skin tone.</p>"
+          }
+        },
+        "16ac6401-a4d0-4a62-9847-a169af5c0017": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Who should use OMEGA-7? Is there an age limit?",
+            "text": "<p>Omega-7 can be beneficial for a wide range of individuals seeking various health improvements. Furthermore, There is no age limit Anyone can consume this product.</p>"
+          }
+        },
+        "23cd7173-0978-4b85-ab79-def33ad1b5b1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can OMEGA-7 softgels be used without a doctor's prescription?",
+            "text": "<p>Our Sea Buckthorn Oil softgels don't require a doctor's prescription. However, if you're pregnant or breastfeeding, it's advisable to consult your doctor before usage.</p>"
+          }
+        },
+        "0ba00c0a-0d00-46a2-95d1-4cca75c8bbaa": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are there any contraindications for apricot oil?",
+            "text": "<p>People with nut allergies should be cautious and consult a healthcare professional before using apricot oil.</p>"
+          }
+        },
+        "d7e1399b-d658-41d8-b90d-6390e3915021": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can apricot oil be ingested?",
+            "text": "<p>Cold-pressed, food-grade apricot oil can be used for culinary purposes and ingested in moderation. Ensure you're using a high-quality, food-grade oil.</p>"
+          }
+        },
+        "a2695d30-c5c6-4863-8b53-1628dc3d213b": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is apricot oil extracted?",
+            "text": "<p>Apricot oil is typically obtained through cold-pressing the kernels of ripe apricots. Cold-pressing helps retain the oil's natural properties.</p>"
+          }
+        },
+        "dd1fe0f0-78de-4567-81d1-277ad9a33d0c": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are there any contraindications for sea buckthorn oil?",
+            "text": "<p>People with certain medical conditions or allergies should consult a healthcare professional before using sea buckthorn oil.</p>"
+          }
+        },
+        "3a60f5b3-78ce-4e1a-b66c-65bbdf54aa2e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is sea buckthorn oil extracted?",
+            "text": "<p>Sea buckthorn oil can be extracted through various methods, including cold-pressing the berries or seeds. The oil is then separated from the pulp and other components.</p>"
+          }
+        },
+        "0fd1845a-47fb-4acc-b6c2-1e3d5d64a4b0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can sea buckthorn oil be ingested?",
+            "text": "<p>Yes, sea buckthorn oil can be ingested as a dietary supplement. However, consult with a healthcare professional before using it internally.</p>"
+          }
+        },
+        "1627173f-782c-4fa5-91e6-d108de4ed35e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are there any contraindications for artemisia oil?",
+            "text": "<p>Individuals with certain medical conditions, such as epilepsy, should avoid using artemisia oil. Consult a healthcare professional before use.</p>"
+          }
+        },
+        "d639e320-5962-457c-bad4-4210eb2d93a0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can artemisia oil be ingested?",
+            "text": "<p>Ingesting essential oils, including artemisia oil, is generally not recommended without guidance from a qualified aromatherapist or healthcare professional.</p>"
+          }
+        },
+        "f0897ebd-0b7e-4492-b5d6-83b469e0a6a6": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is artemisia oil extracted?",
+            "text": "<p>Artemisia oil is typically extracted through steam distillation. Steam is passed through the leaves, stems, or flowers of the Artemisia plant, carrying the aromatic compounds. The steam and essential oil are then condensed and separated.</p>"
+          }
+        },
+        "59c696c5-65f1-42e4-9145-8f1ab186ae9e": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is pine oil extracted?",
+            "text": "<p>Pine oil is typically obtained through steam distillation. Steam is passed through the pine needles or other plant parts, carrying the aromatic compounds. The steam and essential oil are then condensed and separated.</p>"
+          }
+        },
+        "c217a387-b579-4beb-9320-2f6fd97555eb": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can pine oil be used on the skin?",
+            "text": "<p>Pine oil should be diluted with a suitable carrier oil before applying to the skin. A common dilution ratio is 1-2% essential oil to carrier oil.</p>"
+          }
+        },
+        "fc983720-b55d-4576-af0f-4819a66ca386": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are there any contraindications for pine oil?",
+            "text": "<p>Pine oil should be used cautiously by individuals with sensitive skin, allergies, or specific health conditions. Always consult a healthcare professional before use.</p>"
+          }
+        },
+        "f535d8e9-fb5a-410d-8d27-3c8ba2942f47": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How is juniper berry oil extracted?",
+            "text": "<p>Juniper berry oil is usually obtained through steam distillation. Steam is passed through the crushed berries, releasing their aromatic compounds. The steam and essential oil are then condensed and separated.</p>"
+          }
+        },
+        "a17c3605-7beb-498f-9881-4bb7935d2a1f": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can juniper berry oil be ingested?",
+            "text": "<p>In general, ingesting essential oils is not recommended without proper guidance from a qualified aromatherapist or healthcare professional. Juniper berry oil should not be ingested without such guidance</p>"
+          }
+        },
+        "52dc829a-c382-4b45-b2ed-aa55be5446b1": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are there any contraindications for juniper berry oil?",
+            "text": "<p>Juniper berry oil should be used with caution by individuals with kidney problems, high blood pressure, or other medical conditions. It's advisable to consult a healthcare professional before using the oil.</p>"
+          }
+        },
+        "c02c94c0-c6e9-40bd-9e33-3ef4c7f15289": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are your products cruelty-free?",
+            "text": "<p>Yes, our products are cruelty-free and not tested on animals.</p>"
+          }
+        },
+        "6a3237a7-a5ff-4c2b-be87-935bde1502da": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use Anti-aging serum with other skincare products?",
+            "text": "<p>Yes, you can incorporate this serum into your existing skincare routine. Use it after cleansing and before applying moisturizer and sunscreen.</p>"
+          }
+        },
+        "a98564fc-6391-4a61-9c05-0cd59952eb40": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can Anti-aging serum be used on all skin types?",
+            "text": "<p>Yes, our Anti-Aging Serum is suitable for all skin types, including sensitive skin</p>"
+          }
+        },
+        "369f2bc3-1089-45fe-94b0-7abff0de53f9": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use facial serum if I have sensitive skin?",
+            "text": "<p>This serum contains natural ingredients, but it's always a good idea to perform a patch test first to ensure it's suitable for your skin type. If you have specific concerns, consult with a dermatologist</p>"
+          }
+        },
+        "23b51f91-70f2-4760-851f-672056d948c0": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long does it take to see results in skin texture and brightness?",
+            "text": "<p>Results may vary, but with consistent use, you may notice improvements in skin texture and brightness within a few weeks to a couple of months.</p>"
+          }
+        },
+        "53bdf899-9317-4529-907a-cb5c4655e599": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use the facial serum under makeup?",
+            "text": "<p>Yes, this serum can be used as part of your skincare routine before applying makeup. Allow it to absorb into your skin before applying any makeup products.</p>"
+          }
+        },
+        "fcdc1f48-b72d-4d02-9967-a31e8e7ffe28": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use hair serum daily?",
+            "text": "<p>Yes, you can use this serum daily for best results. Apply a small amount to your hair and style as usual.</p>"
+          }
+        },
+        "e60c2bb7-7c49-480a-b6ce-a7f53baf0b9d": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Will the hair serum make my hair greasy?",
+            "text": "<p>No, when used in moderation, this serum should not make your hair greasy. Start with a small amount and adjust as needed.</p>"
+          }
+        },
+        "434000b6-b57f-4246-8ee1-0f1687d26c46": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can the hair serum be used on all hair types?",
+            "text": "<p>Yes, this serum is suitable for all hair types, including straight, curly, and wavy hair.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "4e810f61-a641-4a83-ac1e-354a6bf478f0",
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3",
+        "bae79db5-7393-4c46-8b5b-c3f1b49a1fdb",
+        "2933e48a-b3b2-4754-abea-540d061e4682",
+        "0d0c5099-35e3-4077-a6da-d06ea6d2d470",
+        "247a1ad9-7432-4641-8116-b8f9c36d3cd5",
+        "22363ef3-7081-4595-b4dc-4ab91e079c7c",
+        "a20652ad-589f-4a3d-9f48-55df7e331c24",
+        "d083f220-6c16-4e13-a540-e62d6bc77a80",
+        "a25e2bca-6b61-47c7-b2bf-28212f3486ff",
+        "712a957c-d9b0-44d7-ae41-ad58886f3e97",
+        "0f49fc65-09c7-4c51-ab75-f378fef744dc",
+        "16ac6401-a4d0-4a62-9847-a169af5c0017",
+        "23cd7173-0978-4b85-ab79-def33ad1b5b1",
+        "0ba00c0a-0d00-46a2-95d1-4cca75c8bbaa",
+        "d7e1399b-d658-41d8-b90d-6390e3915021",
+        "a2695d30-c5c6-4863-8b53-1628dc3d213b",
+        "dd1fe0f0-78de-4567-81d1-277ad9a33d0c",
+        "3a60f5b3-78ce-4e1a-b66c-65bbdf54aa2e",
+        "0fd1845a-47fb-4acc-b6c2-1e3d5d64a4b0",
+        "1627173f-782c-4fa5-91e6-d108de4ed35e",
+        "d639e320-5962-457c-bad4-4210eb2d93a0",
+        "f0897ebd-0b7e-4492-b5d6-83b469e0a6a6",
+        "59c696c5-65f1-42e4-9145-8f1ab186ae9e",
+        "c217a387-b579-4beb-9320-2f6fd97555eb",
+        "fc983720-b55d-4576-af0f-4819a66ca386",
+        "f535d8e9-fb5a-410d-8d27-3c8ba2942f47",
+        "a17c3605-7beb-498f-9881-4bb7935d2a1f",
+        "52dc829a-c382-4b45-b2ed-aa55be5446b1",
+        "c02c94c0-c6e9-40bd-9e33-3ef4c7f15289",
+        "6a3237a7-a5ff-4c2b-be87-935bde1502da",
+        "a98564fc-6391-4a61-9c05-0cd59952eb40",
+        "369f2bc3-1089-45fe-94b0-7abff0de53f9",
+        "23b51f91-70f2-4760-851f-672056d948c0",
+        "53bdf899-9317-4529-907a-cb5c4655e599",
+        "fcdc1f48-b72d-4d02-9967-a31e8e7ffe28",
+        "e60c2bb7-7c49-480a-b6ce-a7f53baf0b9d",
+        "434000b6-b57f-4246-8ee1-0f1687d26c46"
+      ],
+      "settings": {
+        "title": "Product Queries",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "body",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 850
+      }
+    },
+    "rich-text-5": {
+      "type": "rich-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Didn't find your answer?",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't hestitate to contact us</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "block-2": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact",
+            "link_text": "Contact us",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text-1",
+    "rich-text-2",
+    "collapsible-row-list-1",
+    "rich-text-3",
+    "collapsible-row-list-2",
+    "rich-text-4",
+    "collapsible-row-list-3",
+    "rich-text-5"
+  ]
+}

@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "t:groups.overlay_group.name",
+  "sections": {
+    "quick-cart": {
+      "type": "quick-cart",
+      "settings": {
+        "enable_quick_cart": true,
+        "show_product_currency": true,
+        "promotion_text": "<p>Check out these collections.</p>",
+        "collection_list": [
+          "essential-oils-1",
+          "therapeutic-oils-1",
+          "softgels",
+          "serums"
+        ],
+        "collection_list_button_style": "btn--primary"
+      }
+    },
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "ed7fea55-ed49-4b6e-b738-df0fb466e98d": {
+          "type": "flyout_signup",
+          "settings": {
+            "delay": "timer_5000",
+            "frequency": "frequency_1",
+            "show_on_exit_intent": false,
+            "disable_for_account_holders": true,
+            "show_on_specific_page": false,
+            "target_page": "",
+            "accent": "",
+            "heading": "Join us",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p>Signup and get 10% off your first purchase</p>",
+            "link_text": "Get offer",
+            "dismiss_text": "No thanks",
+            "footer_text": "<p>By completing this form, you are signing up to receive our emails and can unsubscribe at any time</p>",
+            "tags": "newsletter",
+            "flyout_position": "right",
+            "content_alignment": "center",
+            "focal_point": "image_presentation",
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "input_color": "#000000",
+            "input_background": "#ffffff",
+            "button_background_color": "#8b8778",
+            "button_text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 0,
+            "enable_tab": true,
+            "tab_text": "Get 10% Off",
+            "text_font_class": "fs-body-100",
+            "tab_position": "bottom_left_floating",
+            "tab_text_color": "#000000",
+            "tab_background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "ed7fea55-ed49-4b6e-b738-df0fb466e98d"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "quick-cart",
+    "popup"
+  ]
+}

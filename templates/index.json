@@ -1,0 +1,992 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "592fbe39-a379-43b8-bc17-7c53ac2b7f64": {
+      "type": "slideshow",
+      "blocks": {
+        "02066865-98e9-4934-bdb8-54d1233636ae": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/nn_website_images_main_slider_copy_2_8d6b9bbe-245c-4835-94b3-af11844f2a7f.jpg",
+            "image_mobile": "shopify://shop_images/nn_website_images_main_slider_mobile_copy_2_7d0be076-8cdb-4682-96ec-f204c404ac9a.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/all-products",
+            "text_position": "flex-start_center",
+            "text_position_mobile": "center_flex-end",
+            "accent": "",
+            "title": "Omega-7 Sea Buckthorn Softgel",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "Ultimate Vitality",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-75",
+            "link_1": "shopify://collections/all",
+            "link_text_1": "Shop Now",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
+        "a4d2242f-e00b-48e7-b5f4-ae92d32a57df": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/image_227.png",
+            "image_mobile": "shopify://shop_images/Hair_serum1.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://products/hair-serum",
+            "text_position": "flex-start_center",
+            "text_position_mobile": "flex-start_flex-end",
+            "accent": "",
+            "title": "25% OFF",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "Wellness Friday Sale",
+            "subheading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-75",
+            "link_1": "shopify://products/hair-serum",
+            "link_text_1": "Shop Now",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 42
+          }
+        },
+        "slide_qCX9qi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/web-banner-desktop-_2000x1015_-_21-nov_2.jpg",
+            "image_mobile": "shopify://shop_images/image_31.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "flex-start_center",
+            "text_position_mobile": "flex-start_flex-end",
+            "accent": "",
+            "title": "Wellness Friday SALE",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-4-base",
+            "text": "<p>FLAT <strong>25%</strong> OFF</p>",
+            "text_font_class": "fs-body-200",
+            "link_1": "shopify://collections/all-products",
+            "link_text_1": "Shop Now",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_KjtWyP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/web-banner-desktop-_2000x1015_-_21-nov_5.jpg",
+            "image_mobile": "shopify://shop_images/image_32.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "flex-start_center",
+            "text_position_mobile": "flex-start_center",
+            "accent": "",
+            "title": "Wellness Friday SALE",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>FLAT <strong>25%</strong> OFF</p>",
+            "text_font_class": "fs-body-200",
+            "link_1": "shopify://collections/all-products",
+            "link_text_1": "Shop Now",
+            "button_style_1": "btn--secondary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "02066865-98e9-4934-bdb8-54d1233636ae",
+        "a4d2242f-e00b-48e7-b5f4-ae92d32a57df",
+        "slide_qCX9qi",
+        "slide_KjtWyP"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 85,
+        "mobile_height": 85,
+        "enable_autoplay": true,
+        "duration_autoplay": 4,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "bb414d69-a512-4c94-9e45-83887aaa89dd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "1655747757d7226f15": {
+      "type": "grid",
+      "blocks": {
+        "e866e078-81cd-4f2b-8678-817de7dc830a": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 740,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/nn_website_images_misc_copy_2.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_misc_copy_2_a971d3b1-0e3f-4787-82b9-204e72a73960.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Muscular Spasm Relief",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Artiniper Oil</p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://products/artiniper-oil",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 10
+          }
+        },
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 640,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/nn_website_images_grid_tile.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_grid_tile.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Radiant, Healthy Skin",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "<p>Facial Serum</p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://products/facial-serum",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "e866e078-81cd-4f2b-8678-817de7dc830a",
+        "c832af30-0b0e-4968-9284-ab8633c9a7c3"
+      ],
+      "settings": {
+        "heading": "Greetings from North Naturals",
+        "subheading": "<p>We bring you natural and organic treasures from Northern Pakistan for your holistic well-being.</p>",
+        "content_alignment": "center",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "c73ba1b7-324d-4a99-bc77-6c5fe0f54480": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "e815dc96-3176-4e25-83fe-8a4623ebbd36": {
+      "type": "complete-the-look",
+      "blocks": {
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-1": {
+          "type": "product",
+          "settings": {
+            "product_item": "artemisia-oil",
+            "custom_product_image": "shopify://shop_images/Background.jpg"
+          }
+        },
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-2": {
+          "type": "product",
+          "settings": {
+            "product_item": "himalayan-cedarwood-oil",
+            "custom_product_image": "shopify://shop_images/Layer_2.jpg"
+          }
+        },
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-3": {
+          "type": "product",
+          "settings": {
+            "product_item": "pine-oil",
+            "custom_product_image": "shopify://shop_images/Layer_3.jpg"
+          }
+        },
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-4": {
+          "type": "product",
+          "settings": {
+            "product_item": "juniper-berry-oil",
+            "custom_product_image": "shopify://shop_images/Layer_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-1",
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-2",
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-3",
+        "template--19973346132286__e815dc96-3176-4e25-83fe-8a4623ebbd36-product-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/nn_website_images_main_slider_mobile_copy_7_f216448e-5570-4954-9ffe-7c55a9af103d.jpg",
+        "video_url": "",
+        "video_loop": true,
+        "video_controls": false,
+        "image_position": "left",
+        "aspect_ratio": "portrait_alt",
+        "heading": "Pure Essential Oils",
+        "subheading": "<p>Heal physically and mentally</p>",
+        "link": "shopify://collections/bundles",
+        "link_text": "Shop the bundle",
+        "button_style": "btn--secondary",
+        "product_image_size": "small",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "223d6202-1107-484d-9094-07297d32b37c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "54a255cc-1a33-4b52-bc2d-493431b1805a": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "122a1bae-f8d2-4e3c-96d0-2bf272f1a541": {
+          "type": "product_list",
+          "settings": {
+            "product_list": [
+              "omega-7-soft-gels",
+              "sea-buckthorn-oil",
+              "hair-serum",
+              "facial-serum",
+              "omega-7-bundle-pack-of-2",
+              "apricotkerneloil",
+              "artiniper-oil"
+            ],
+            "collection_name": "Collection"
+          }
+        }
+      },
+      "block_order": [
+        "122a1bae-f8d2-4e3c-96d0-2bf272f1a541"
+      ],
+      "settings": {
+        "heading": "Top Sellers",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 6,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "534b3351-f83a-4a7e-b77e-91cab542baf4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "c88ef609-3f04-468d-89e9-dc44a97b820b": {
+      "type": "grid",
+      "blocks": {
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-1": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_concern_copy_2.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_concern_copy_2.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Skin",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/skin",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-2": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_concern.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_concern.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Face",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/face",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-3": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_concern_copy.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_concern_copy.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Hair",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/hair-1",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "5d351d81-f1ab-48c8-be29-dd0fab469d18": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_grid_tile_copy.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_grid_tile_copy.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Digestive support",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/digestive-support-1",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "605184f9-96b5-456e-8235-b5219141c81d": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_concern_copy_3.jpg",
+            "mobile_image": "shopify://shop_images/nn_website_images_concern_copy_3.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Brain and heart health",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/brain-heart-health-1",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "701c0071-9ba6-4cea-b88b-dee1c3ff31d6": {
+          "type": "item",
+          "settings": {
+            "width": "33",
+            "height": 500,
+            "mobile_height": 380,
+            "image": "shopify://shop_images/nn_website_images_concern_copy_5.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Rest & relax",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/rest-relax-1",
+            "link_text": "Browse Products",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ede8d6",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-1",
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-2",
+        "template--19973346132286__c88ef609-3f04-468d-89e9-dc44a97b820b-item-3",
+        "5d351d81-f1ab-48c8-be29-dd0fab469d18",
+        "605184f9-96b5-456e-8235-b5219141c81d",
+        "701c0071-9ba6-4cea-b88b-dee1c3ff31d6"
+      ],
+      "settings": {
+        "heading": "Shop By Concern",
+        "subheading": "",
+        "content_alignment": "left",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 20,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_m6Bie9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1715281613e46cc293": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_xtP9k4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1500
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_xtP9k4"
+      ],
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "custom_liquid_GeHtK9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "940e6034-e710-4d07-af15-ab179bb7fbed": {
+      "type": "sales-banner",
+      "settings": {
+        "min_height": 390,
+        "min_height_mobile": 500,
+        "sale_type": "Up to",
+        "sale_amount": "20",
+        "sale_unit": "percent_off",
+        "terms_and_conditions": "On Bundles",
+        "terms_vertical_offset": 0,
+        "sale_font_size": 120,
+        "sale_font_size_mobile": 114,
+        "currency_symbol_position": "before",
+        "heading": "Enjoy discounts on bundles",
+        "heading_font_class": "fs-heading-3-base",
+        "text": "<p>Bundles are a good way to try our range of products while saving more</p>",
+        "link": "shopify://collections/bundles",
+        "link_text": "Shop Bundles",
+        "button_style": "btn--secondary",
+        "link_2": "shopify://collections",
+        "link_text_2": "",
+        "button_style_2": "btn--secondary",
+        "image": "shopify://shop_images/nn_website_images_sale_banner_copy_2.jpg",
+        "mobile_image": "shopify://shop_images/nn_website_images_sale_banner_copy_2.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#ffffff",
+        "color_overlay": "#69564f",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 56,
+        "layout": "two-columns",
+        "enable_animation": true,
+        "show_frame": false,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "bfb0abd3-3cff-41b9-927b-da6363d01c2c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "1d1a52df-a39a-481b-85cb-3e26766fdbac": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "165488047346f59e49": {
+      "type": "collection-list-slider",
+      "settings": {
+        "heading": "Shop By Product Type",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "View all collections",
+        "columns": "3",
+        "mobile_columns": "1",
+        "collection_list": [
+          "essential-oils-1",
+          "softgels",
+          "therapeutic-oils-1",
+          "serums"
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "solid",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "515a62f1-574a-41f8-9bfb-965d009026d4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "4300a173-65b4-425b-8583-e14b0635993c": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-accent-1": {
+          "type": "accent",
+          "settings": {
+            "accent": "Most popular"
+          }
+        },
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Plant-Powered Omega-7",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Sea Buckthorn soft gel capsules are an amazing super food for health, wellness, and beauty.",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "ff41cd49-ea6f-4dce-8c6e-1de634a805b3": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/omega-7-soft-gels",
+            "link_text": "Shop Now",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-accent-1",
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-heading-1",
+        "template--19973346132286__4300a173-65b4-425b-8583-e14b0635993c-subheading-1",
+        "ff41cd49-ea6f-4dce-8c6e-1de634a805b3"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/nn_website_images_second_last_banner1.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "button_background_color": "#ede8d6",
+        "button_text_color": "#0b0b0b",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "79a19820-a968-4bea-acb9-816246476d1a": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 4.5,
+            "quote": "Two weeks into using Artiniper Oil and i'm thoroughly impressed! It is organic & the blend of oils works wonders for body pain and my dry skin. Would highly recommend it for a natural recovery post-workout",
+            "author": "– Burhan Zaka"
+          }
+        },
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-1",
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-2",
+        "template--19973346132286__79a19820-a968-4bea-acb9-816246476d1a-testimonial-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "large",
+        "quote_font": "body",
+        "background_color": "",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0c743ef5-4167-44d7-8e8c-f04f555f3bd2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "e49b8d48-5ba4-4f0c-a2c8-035c14adf7c2": {
+      "type": "blog-posts",
+      "blocks": {
+        "2c62b561-79c0-4531-80b0-3b320cb5ca81": {
+          "type": "article",
+          "settings": {
+            "article": "news/bearing-the-cost-taxing-ourselves"
+          }
+        },
+        "7cfefb26-68fb-4b56-9483-d16c5487193a": {
+          "type": "article",
+          "settings": {
+            "article": "news/connecting-children-with-nature"
+          }
+        }
+      },
+      "block_order": [
+        "2c62b561-79c0-4531-80b0-3b320cb5ca81",
+        "7cfefb26-68fb-4b56-9483-d16c5487193a"
+      ],
+      "settings": {
+        "heading": "Activism",
+        "subheading": "",
+        "button_link": "shopify://blogs/all",
+        "link_text": "View all posts",
+        "display_type": "all",
+        "blog": "actions",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "c4fa476d-c526-4da8-ac57-d25e1a62f446": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "2ffbf873-2a5f-4634-8ace-9c033ee78c2e": {
+      "type": "image-hero",
+      "blocks": {
+        "template--19973346132286__2ffbf873-2a5f-4634-8ace-9c033ee78c2e-accent-1": {
+          "type": "accent",
+          "settings": {
+            "accent": "JOIN THE COMMUNITY"
+          }
+        },
+        "24f7932a-c900-48f8-a38c-94822d3ca8fc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Stay Updated on our actvism and product related information",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "0d146fdf-34c3-4ffb-9db1-122c89a99c1f": {
+          "type": "button",
+          "settings": {
+            "link": "https://www.instagram.com/northnaturalspk/",
+            "link_text": "Follow us on instagram",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--19973346132286__2ffbf873-2a5f-4634-8ace-9c033ee78c2e-accent-1",
+        "24f7932a-c900-48f8-a38c-94822d3ca8fc",
+        "0d146fdf-34c3-4ffb-9db1-122c89a99c1f"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 55,
+        "image": "shopify://shop_images/01458985-C4B1-4ECD-BBB3-B7802039F4A2.jpg",
+        "image_mobile": "shopify://shop_images/01458985-C4B1-4ECD-BBB3-B7802039F4A2_d3ff3a3d-1d32-4f14-8ed9-da9be2e82221.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "502c9bb8-7ddd-4dc5-ad80-84b8389dba16": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<hr>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "39b019d8-0e19-4220-9269-56ca420dc4f6": {
+      "type": "countdown-bar",
+      "settings": {
+        "min_height": 80,
+        "min_height_mobile": 60,
+        "year": 0,
+        "month": "january",
+        "day": "1",
+        "hour": "0",
+        "minute": "0",
+        "time_zone_selection": "shop",
+        "hide_timer_on_complete": true,
+        "timer_complete_message": "",
+        "heading": "Bringing you the healing power of plants",
+        "text": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "background_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "full_width": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "592fbe39-a379-43b8-bc17-7c53ac2b7f64",
+    "bb414d69-a512-4c94-9e45-83887aaa89dd",
+    "1655747757d7226f15",
+    "c73ba1b7-324d-4a99-bc77-6c5fe0f54480",
+    "e815dc96-3176-4e25-83fe-8a4623ebbd36",
+    "223d6202-1107-484d-9094-07297d32b37c",
+    "54a255cc-1a33-4b52-bc2d-493431b1805a",
+    "534b3351-f83a-4a7e-b77e-91cab542baf4",
+    "c88ef609-3f04-468d-89e9-dc44a97b820b",
+    "custom_liquid_m6Bie9",
+    "1715281613e46cc293",
+    "custom_liquid_GeHtK9",
+    "940e6034-e710-4d07-af15-ab179bb7fbed",
+    "bfb0abd3-3cff-41b9-927b-da6363d01c2c",
+    "1d1a52df-a39a-481b-85cb-3e26766fdbac",
+    "165488047346f59e49",
+    "515a62f1-574a-41f8-9bfb-965d009026d4",
+    "4300a173-65b4-425b-8583-e14b0635993c",
+    "79a19820-a968-4bea-acb9-816246476d1a",
+    "0c743ef5-4167-44d7-8e8c-f04f555f3bd2",
+    "e49b8d48-5ba4-4f0c-a2c8-035c14adf7c2",
+    "c4fa476d-c526-4da8-ac57-d25e1a62f446",
+    "2ffbf873-2a5f-4634-8ace-9c033ee78c2e",
+    "502c9bb8-7ddd-4dc5-ad80-84b8389dba16",
+    "39b019d8-0e19-4220-9269-56ca420dc4f6"
+  ]
+}

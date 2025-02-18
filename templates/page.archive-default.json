@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ac_hero_Jbm8mD": {
+      "type": "ac-hero",
+      "settings": {
+        "ac_hero_bg_img": "shopify://shop_images/main_banner_4568cd2c-a3dc-4c01-a1a2-99966caaa77c.png",
+        "ac_hero_heading": "ACTIVISM",
+        "ac_hero_btn_1": "Actions",
+        "ac_hero_btn_1_link": "shopify://blogs/actions",
+        "ac_hero_btn_2": "Stories",
+        "ac_hero_btn_2_link": "shopify://blogs/stories"
+      }
+    },
+    "ac_about_zEeqVA": {
+      "type": "ac-about",
+      "settings": {
+        "title": "Driving Change for a Sustainable Future.",
+        "sub_title": ".....",
+        "description": "We use our actions and community to reconnect with nature, reverse biodiversity loss, and restore ecosystems—taking responsibility to make a lasting difference. Together, we strive to build a harmonious relationship between people and the planet, empowering communities to embrace sustainability and contribute to a healthier, more vibrant Earth.",
+        "btn_url": "#",
+        "btn_text": ""
+      }
+    },
+    "ac_blogs_pfHJ38": {
+      "type": "ac-blogs",
+      "settings": {
+        "blog": "actions"
+      }
+    },
+    "ac_video_gi8irH": {
+      "type": "ac-video",
+      "settings": {
+        "video_ac": "shopify://files/videos/C0040 (1).mp4"
+      }
+    },
+    "ac_blogs_L9xQUK": {
+      "type": "ac-blogs",
+      "settings": {
+        "blog": "stories"
+      }
+    },
+    "ac_scrollar_section_rjTqyh": {
+      "type": "ac-scrollar-section",
+      "settings": {
+        "banner": "shopify://shop_images/image00005.jpg",
+        "title": "Pantagonia",
+        "btn_text": "Learn More",
+        "btn_url": "/"
+      }
+    },
+    "ac_hightlights_Tae9mF": {
+      "type": "ac-hightlights",
+      "settings": {
+        "title": "Highlights",
+        "sub_title": "Lorem ipsum dolor sit amet consectetur. Molestie amet ornare lorem nunc.",
+        "blog": "actions"
+      }
+    },
+    "ac_newsletter_9m7N4e": {
+      "type": "ac-newsletter",
+      "settings": {
+        "img": "shopify://shop_images/news_image.png"
+      }
+    }
+  },
+  "order": [
+    "ac_hero_Jbm8mD",
+    "ac_about_zEeqVA",
+    "ac_blogs_pfHJ38",
+    "ac_video_gi8irH",
+    "ac_blogs_L9xQUK",
+    "ac_scrollar_section_rjTqyh",
+    "ac_hightlights_Tae9mF",
+    "ac_newsletter_9m7N4e"
+  ]
+}

@@ -1,0 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "enable_full_width_image": false,
+            "image_aspect": "custom",
+            "desktop_height": 55,
+            "mobile_height": 55,
+            "focal_point": "center"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_tags": true,
+            "show_author": false,
+            "show_date": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        },
+        "social_share": {
+          "type": "social_sharing",
+          "settings": {
+            "share_text": "Share"
+          }
+        },
+        "3a2f963a-c28d-4c4e-afb7-d58b3f5d2113": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "All",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day"
+          }
+        },
+        "d58ee445-fb33-44cb-aab7-c7827d6a497e": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "All - Actions",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/all-actions"
+          }
+        },
+        "c70efaf0-b062-434e-80a2-6a96e390d9ef": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "Community",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/community"
+          }
+        },
+        "1cc3d696-ae2a-430c-9457-58c91ef5bfcc": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "Stories",
+            "navigation_link": "shopify://blogs/stories"
+          }
+        },
+        "05b36866-29f3-45ff-9681-bb81db0ecfb4": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "New",
+            "navigation_link": "https://305de2.myshopify.com/blogs/stories/plants-and-the-spirits"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "social_share",
+        "3a2f963a-c28d-4c4e-afb7-d58b3f5d2113",
+        "d58ee445-fb33-44cb-aab7-c7827d6a497e",
+        "c70efaf0-b062-434e-80a2-6a96e390d9ef",
+        "1cc3d696-ae2a-430c-9457-58c91ef5bfcc",
+        "05b36866-29f3-45ff-9681-bb81db0ecfb4"
+      ],
+      "settings": {
+        "content_width": "custom",
+        "custom_content_width": 700,
+        "enable_animation": true
+      }
+    },
+    "ac_related_blogs_A8DDUb": {
+      "type": "ac-related-blogs",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "ac_related_blogs_A8DDUb"
+  ]
+}

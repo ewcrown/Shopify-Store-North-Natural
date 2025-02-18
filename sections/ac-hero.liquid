@@ -1,0 +1,136 @@
+<section class="ac-hero">
+  <div class="ac-hero-row">
+    <div class="ac-hero-wrap">
+      <div class="ac-hero-media">
+        {% if section.settings.ac_hero_bg_video != blank %}
+          <video autoplay muted loop>
+            <source src="{{ section.settings.ac_hero_bg_video.sources[1].url }}" type="video/mp4" class="img-res">
+          </video>
+        {% else %}
+          <img src="{{ section.settings.ac_hero_bg_img | img_url : 'master' }}" class="img-res">
+        {% endif %}
+      </div>
+      <div class="ac-inner-wrap">
+        <div class="ac-hero-content-inner">
+          <div class="ac-hero-content section">
+            <div class="ac-hero-text">
+              <h1 class="ac-hero-heading">{{ section.settings.ac_hero_heading }}</h1>
+            </div>
+            <div class="ac-hero-buttons">
+              {% if section.settings.ac_hero_btn_1_link != blank %}
+                <a href="{{ section.settings.ac_hero_btn_1_link }}" class="ac-hero-btn">
+                  <p>{{ section.settings.ac_hero_btn_1 }}</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    class="ac-arrow-icon"
+                  >
+                    <g filter="url(#filter0_b_0_411)">
+                    <circle cx="30" cy="30" r="30" fill="white"/>
+                    <circle cx="30" cy="30" r="29.7143" stroke="white" stroke-width="0.571429"/>
+                    </g>
+                    <path d="M20 40L39 21M39 21H21.9M39 21V38.1" stroke="black" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"/>
+                    <defs>
+                    <filter id="filter0_b_0_411" x="-3.6" y="-3.6" width="67.2" height="67.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.8"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_411"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_411" result="shape"/>
+                    </filter>
+                    </defs>
+                  </svg>
+                </a>
+              {% endif %}
+              {% if section.settings.ac_hero_btn_2_link %}
+                <a href="{{ section.settings.ac_hero_btn_2_link }}" class="ac-hero-btn">
+                  <p>{{ section.settings.ac_hero_btn_2 }}</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    class="ac-arrow-icon"
+                  >
+                    <g filter="url(#filter0_b_0_411)">
+                    <circle cx="30" cy="30" r="30" fill="white"/>
+                    <circle cx="30" cy="30" r="29.7143" stroke="white" stroke-width="0.571429"/>
+                    </g>
+                    <path d="M20 40L39 21M39 21H21.9M39 21V38.1" stroke="black" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"/>
+                    <defs>
+                    <filter id="filter0_b_0_411" x="-3.6" y="-3.6" width="67.2" height="67.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.8"/>
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_0_411"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_411" result="shape"/>
+                    </filter>
+                    </defs>
+                  </svg>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "ac_hero_bg_img",
+      "label": "Background Image"
+    },
+    {
+      "type": "video",
+      "id": "ac_hero_bg_video",
+      "label": "Background Video"
+
+    },
+
+    {
+      "type": "text",
+      "id": "ac_hero_heading",
+      "label": "Heading Here",
+       "default":"ACTIVISM"
+    },
+  {
+    "type": "text",
+    "id": "ac_hero_btn_1",
+    "label": "Button-1 Name",
+    "default":"Actions"
+
+  },
+    {
+      "type": "url",
+      "id": "ac_hero_btn_1_link",
+      "label": "Button-1 Url"
+    },
+     {
+    "type": "text",
+    "id": "ac_hero_btn_2",
+    "label": "Button-2 Name",
+    "default":"Stroies"
+
+  },
+    {
+      "type": "url",
+      "id": "ac_hero_btn_2_link",
+      "label": "Button-2 Url"
+    }
+
+  ],
+  "presets": [
+    {
+      "name": "<> Hero"
+    }
+  ]
+}
+{% endschema %}

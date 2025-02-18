@@ -1,0 +1,256 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:groups.header_group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-1": {
+          "type": "announcement",
+          "settings": {
+            "title": "<h3>Free delivery on orders above Rs3500</h3>",
+            "title_mobile": "<h3>Free delivery on orders above Rs 3500</h3>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-1"
+      ],
+      "settings": {
+        "autoplay_enabled": true,
+        "autoplay_delay": 4,
+        "color_background": "#615454",
+        "color_text": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "meganav-0": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "shop all",
+            "column_count": 2,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 700,
+            "promo_height": 400,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/nn_website_images_concern_copy_2.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Shop All",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 33
+          }
+        },
+        "meganav-1": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "face",
+            "columns_width": 440,
+            "column_count": 2,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 350,
+            "secondary_position": "left",
+            "focal_point": "image_presentation",
+            "promo_text": "Newest Releases",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 50
+          }
+        },
+        "4c5e1f0c-51d3-4c53-b7e9-dec152d6f258": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "body",
+            "columns_width": 440,
+            "column_count": 2,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 350,
+            "secondary_position": "left",
+            "focal_point": "image_presentation",
+            "promo_text": "Newest Releases",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "ea00285b-ba8d-46ea-98a3-3e80bb2c896e": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "essential oils",
+            "columns_width": 350,
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 300,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/nn_website_images_last_banner.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Shop All",
+            "link": "shopify://collections/essential-oils-1",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "e3578d9e-53cd-46c0-b17c-8da6af32be00": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "therapeutic oils",
+            "columns_width": 350,
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 300,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/358715125_766658842128642_6709189062464037920_n-2.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Shop All",
+            "link": "shopify://collections/therapeutic-oils-1",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "bae1f5d7-0390-4a8b-860d-acd5880a2b01": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "serums",
+            "columns_width": 350,
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 300,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/nn_website_images_concern_copy_2.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Shop All",
+            "link": "shopify://collections/serums",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "e8e68500-61a8-441e-aec8-3596c6904185": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "vitality",
+            "columns_width": 350,
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 300,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/nn_website_images_second_last_banner1.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Shop All",
+            "link": "shopify://collections/vitality",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "3efbdb8a-f8b4-4974-aa2f-04daa57baa39": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "activism",
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 250,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/nn_website_images_main_slider_copy_2_9a60dac9-c209-440a-8f55-059c1cea37ac.jpg",
+            "image_2": "shopify://shop_images/6ea4e459-ce47-47a4-8d4c-043ae16980c5.jpg",
+            "image_3": "shopify://shop_images/01458985-C4B1-4ECD-BBB3-B7802039F4A2.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Newest Releases",
+            "link": "shopify://collections/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "meganav-0",
+        "meganav-1",
+        "4c5e1f0c-51d3-4c53-b7e9-dec152d6f258",
+        "ea00285b-ba8d-46ea-98a3-3e80bb2c896e",
+        "e3578d9e-53cd-46c0-b17c-8da6af32be00",
+        "bae1f5d7-0390-4a8b-860d-acd5880a2b01",
+        "e8e68500-61a8-441e-aec8-3596c6904185",
+        "3efbdb8a-f8b4-4974-aa2f-04daa57baa39"
+      ],
+      "settings": {
+        "layout": "logo-left_nav-left",
+        "enable_sticky_header": true,
+        "divider_width": "2px",
+        "enable_locale_selector": true,
+        "enable_country_selector": true,
+        "show_social_media": false,
+        "logo": "shopify://shop_images/NN_logo-1_4x_f9a7ba72-eb0c-4694-9fb5-bc6a149d7b3d.png",
+        "logo_width": 120,
+        "mobile_logo_width": 110,
+        "menu": "main-menu",
+        "secondary_menu": "",
+        "enable_transparent_on_home": true,
+        "enable_transparent_template_list": "",
+        "logo_transparent": "shopify://shop_images/NN_logo-1_4x_f9a7ba72-eb0c-4694-9fb5-bc6a149d7b3d.png",
+        "color_text_transparent": "#000000",
+        "color_count_transparent": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

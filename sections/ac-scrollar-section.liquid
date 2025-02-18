@@ -1,0 +1,107 @@
+<style>
+  .ac-scrollar-expanding-section {
+   background: {% if section.settings.banner != blank %}url('{{ section.settings.banner | img_url:'master' }}'){% else %}#fff{% endif %};
+   background-repeat:no-repeat;
+   background-size:cover;
+  }
+</style>
+
+<div class="ac-scrollar-expanding-section">
+  <div class="ac-scrollar-content">
+    {% if section.settings.title != blank %}
+      <h3>{{ section.settings.title }}</h3>
+    {% endif %}
+    {% if section.settings.btn_url != blank %}
+      <a href="{{ section.settings.btn_url }}">{{ section.settings.btn_text }}</a>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  // Wait for the DOM to load
+  document.addEventListener("DOMContentLoaded", function () {
+    // Initialize ScrollMagic Controller
+    var controller = new ScrollMagic.Controller();
+
+    // Scene to expand section and reduce border width
+    var expandScene = new ScrollMagic.Scene({
+      triggerElement: ".ac-scrollar-expanding-section", // Start effect when this section is in view
+      triggerHook: 0, // Trigger as soon as the section enters the viewport
+      duration: "50%" // Duration for the effect
+    })
+      .on("progress", function (event) {
+        var progress = event.progress; // Value between 0 and 1
+        var section = document.querySelector(".ac-scrollar-expanding-section");
+        var content = document.querySelector(".ac-scrollar-content");
+
+        // Dynamically reduce border width based on scroll progress
+        
+        var borderWidth;
+          if(window.innerWidth > 600){
+           borderWidth = 100 * (1 - progress); // 100px to 0px
+            
+          } else {
+           borderWidth = 20 * (1 - progress); // 20px to 0px
+          }
+        section.style.borderWidth = `${borderWidth}px`;
+
+        // Move content from bottom (200px) to -500px (above the center) based on scroll progress
+        var translateY = 200 * (1 - progress) - 500 * progress; // Start from 200px below and move to -500px
+        content.style.transform = `translateY(${translateY}px) translateX(-50%)`;
+        content.style.opacity = progress; // Gradually increase opacity
+
+        // Fully expanded
+        if (progress >= 1) {
+          section.classList.add("expanded");
+        } else {
+          section.classList.remove("expanded");
+        }
+      })
+      .addTo(controller);
+
+    // Scene to unpin the section and reveal the rest of the page
+    var pinScene = new ScrollMagic.Scene({
+      triggerElement: ".ac-scrollar-expanding-section",
+      triggerHook: 0,
+      duration: "100%" // Stop pinning when the section is fully expanded
+    })
+      .setPin(".ac-scrollar-expanding-section")
+      .addTo(controller);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "<> Scrollar Content",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner",
+      "label": "Banner Here"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Here",
+      "default": "Pantagonia"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link",
+      "default": "/"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Scrollar Content"
+    }
+  ]
+}
+{% endschema %}

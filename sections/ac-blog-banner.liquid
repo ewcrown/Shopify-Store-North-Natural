@@ -1,0 +1,54 @@
+{% assign s = section.settings %}
+
+<section class="ac-collection-banner" id="ac-collection-banner-{{ section.id }}">
+  <div class="ac-collection-banner-row">
+    <div class="ac-collection-banner-media">
+      {% if s.blog_video != blank %}
+        <video width="320" height="240" muted loop autoplay>
+          <source src="{{ s.blog_video.sources[1].url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% else %}
+        <img src="{{ s.img | img_url:'master' }}" class="img-res">
+      {% endif %}
+    </div>
+    <div class="ac-collection-banner-wrap">
+    <div class="section">
+      <div class="ac-collection-banner-wrap-inner">
+        <div class="ac-collection-column">
+          <h3>{{ s.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Blog Banner",
+  "settings": [
+    {
+      "type": "video",
+      "id": "blog_video",
+      "label": "A Shopify-hosted video"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Here",
+      "default": "ACTIVISM"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Blog Banner"
+    }
+  ]
+}
+{% endschema %}

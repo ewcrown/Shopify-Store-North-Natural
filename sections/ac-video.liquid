@@ -1,0 +1,32 @@
+<section class="ac-video-section" id="ac-video-section">
+  <div class="ac-video-section-row">
+    <div class="section">
+      <div class="ac-video-section-wrap">
+       <video autoplay muted loop src="{{ section.settings.video_ac.sources[1].url }}" class="img-res"></video>
+    <div class="ac-video-content">
+          <h5 class="ac-video-sub-heading">Turning the Tide:</h5>
+        <h3 class="ac-video-heading">My Mission to Save Our Earth</h3>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+"name": "<> Video ",
+  "settings": [
+  {
+        "type": "video",
+        "id": "video_ac",
+        "label": " Video"
+      },
+  ],
+  "presets": [
+  {
+  "name": "<> Video "
+    }
+    ]
+    }
+    {% endschema %}

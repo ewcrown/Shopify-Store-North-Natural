@@ -1,0 +1,152 @@
+<!doctype html>
+
+<!--
+  ___                 ___           ___           ___
+       /  /\                     /__/\         /  /\         /  /\
+      /  /:/_                    \  \:\       /  /:/        /  /::\
+     /  /:/ /\  ___     ___       \  \:\     /  /:/        /  /:/\:\
+    /  /:/ /:/ /__/\   /  /\  ___  \  \:\   /  /:/  ___   /  /:/  \:\
+   /__/:/ /:/  \  \:\ /  /:/ /__/\  \__\:\ /__/:/  /  /\ /__/:/ \__\:\
+   \  \:\/:/    \  \:\  /:/  \  \:\ /  /:/ \  \:\ /  /:/ \  \:\ /  /:/
+    \  \::/      \  \:\/:/    \  \:\  /:/   \  \:\  /:/   \  \:\  /:/
+     \  \:\       \  \::/      \  \:\/:/     \  \:\/:/     \  \:\/:/
+      \  \:\       \__\/        \  \::/       \  \::/       \  \::/
+       \__\/                     \__\/         \__\/         \__\/
+
+  --------------------------------------------------------------------
+  #  Stiletto v2.2.2
+  #  Documentation: https://fluorescent.co/help/stiletto/
+  #  Purchase: https://themes.shopify.com/themes/stiletto/
+  #  A product by Fluorescent: https://fluorescent.co/
+  --------------------------------------------------------------------
+-->
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" style="--announcement-height: 1px;">
+  <head>
+    <!-- Snap Pixel Code -->
+<script type='text/javascript'>
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', 'bd338800-4cd2-4a56-8337-ce8feaf05729', {
+'user_email': '_INSERT_USER_EMAIL_'
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
+    <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '248053647747935');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=248053647747935&ev=PageView&noscript=1"
+/></noscript>
+    <meta name="facebook-domain-verification" content="85nrsng1hk2n4updotrl4qai4vkn9h" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {% render 'meta-description' %}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+    {%- if settings.favicon != blank -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
+    {%- endif -%}
+
+    {%- capture seo_title -%}
+      {%- if request.page_type == 'search' and search.performed == true -%}
+        {{ 'search.heading' | t: count: search.results_count }}:
+        {{ 'search.results_with_count' | t: terms: search.terms, count: search.results_count }}
+      {%- else -%}
+        {{ page_title }}
+      {%- endif -%}
+      {%- if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' -%}
+        &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif -%}
+      {%- if current_page != 1 -%}
+        &ndash; {{ 'general.meta.page' | t: page: current_page }}
+      {%- endif -%}
+      {%- assign escaped_page_title = page_title | escape -%}
+      {%- unless escaped_page_title contains shop.name -%}
+        &ndash; {{ shop.name }}
+      {%- endunless -%}
+    {%- endcapture -%}
+    <title>{{ seo_title | strip }}</title>
+
+    {% render 'social-meta-tags' %}
+
+    {% render 'theme-setup' %}
+    {% render 'theme-setting-vars' %}
+    {%- render 'theme-globals' -%}
+    {{ 'ac-styles.css' | asset_url | stylesheet_tag }}
+    {{ 'ac-media-queries.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+ 
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "k2mngq0psz");
+</script>
+    <style>.animation--item:has(#judgeme_product_reviews) {opacity:1 !important;}</style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+  </head>
+
+  <body class="template-{{ request.page_type | handle }}">
+    <div class="page">
+      {% if settings.enable_page_transitions %}
+        {% render 'page-transition-overlay' %}
+      {% endif %}
+
+      <div class="theme-editor-scroll-offset"></div>
+
+      <div class="header__space" data-header-space></div>
+
+      {% sections 'header-group' %}
+      {% sections 'overlay-group' %}
+
+      {%- if settings.enable_quick_search -%}
+        {% render 'quick-search' %}
+      {%- endif -%}
+
+      <div class="header-overlay" data-header-overlay>
+        <div class="header-overlay__inner"></div>
+      </div>
+
+      <main id="main" class="main">
+        {{ content_for_layout }}
+      </main>
+
+      {% sections 'footer-group' %}
+
+      {% render 'store-availability-drawer' %}
+      {% render 'quick-view-modal' %}
+      {% render 'modal' %}
+      {% render 'back-to-top' %}
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    {{ 'ac-custom.js' | asset_url | script_tag }}
+    {{ '//www.youtube.com/iframe_api' | script_tag }}
+    {{ '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css' | stylesheet_tag }}
+  {% render 'automizely-recommendations' %}</body>
+  {{ 'theme-deferred.css' | asset_url | stylesheet_tag }}
+    
+</html>

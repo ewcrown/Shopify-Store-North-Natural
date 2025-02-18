@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ac_blog_banner_hWQrCq": {
+      "type": "ac-blog-banner",
+      "settings": {
+        "img": "shopify://shop_images/blog-banner_b6fa355a-80a0-46be-bef0-067da0efc1dd.png",
+        "title": "ACTIVISM"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "2b8e9e53-48bd-46c7-8765-76d23a54a90a": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "All",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day"
+          }
+        },
+        "link_GCEWFe": {
+          "type": "link",
+          "settings": {
+            "navigation_link_text": "",
+            "navigation_link": ""
+          }
+        },
+        "66c5077e-708b-42d1-9412-44bd235c36eb": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "Actions",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/all-actions"
+          }
+        },
+        "f4dae2e1-2221-4eda-b23b-f0d9afcb9732": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "Community",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/community"
+          }
+        },
+        "1bc939d9-c8de-4192-b578-c15447f40fe9": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "Stories",
+            "navigation_link": "https://305de2.myshopify.com/blogs/good-day/stories"
+          }
+        },
+        "9e7d068f-3815-4775-bd84-10124e4e0861": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "navigation_link_text": "New",
+            "navigation_link": "https://305de2.myshopify.com/blogs/stories/plants-and-the-spirits"
+          }
+        }
+      },
+      "block_order": [
+        "2b8e9e53-48bd-46c7-8765-76d23a54a90a",
+        "link_GCEWFe",
+        "66c5077e-708b-42d1-9412-44bd235c36eb",
+        "f4dae2e1-2221-4eda-b23b-f0d9afcb9732",
+        "1bc939d9-c8de-4192-b578-c15447f40fe9",
+        "9e7d068f-3815-4775-bd84-10124e4e0861"
+      ],
+      "settings": {
+        "show_tag_nav": false,
+        "blogs_menu": "blogs",
+        "article_per_page": 12,
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "ac_blog_banner_hWQrCq",
+    "main"
+  ]
+}

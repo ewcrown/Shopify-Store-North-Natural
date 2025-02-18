@@ -1,0 +1,71 @@
+{% assign s = section.settings %}
+
+<section class="ac-about">
+  <div class="ac-about-row">
+    <div class="section">
+      <div class="ac-about-wrap">
+        <div class="ac-about-left">
+          {% if s.title != blank %}
+            <h2 class="ac-about-left-heading">{{ s.title }}</h2>
+          {% endif %}
+        </div>
+        <div class="ac-about-right">
+          {% if s.sub_title != blank %}
+            <h3 class="ac-about-right-heading">
+              {{ s.sub_title }}
+            </h3>
+          {% endif %}
+          {% if s.description != blank %}
+            <p class="ac-about-des">
+              {{ s.description }}
+            </p>
+          {% endif %}
+          {% if s.btn_url != blank %}
+            <a href="{{ s.btn_url }}" class="ac-btn">{{ s.btn_text }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "<> About",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Here",
+      "default": "About"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Title Here",
+      "default": "Lorem ipsum dolor sit amet consectetur. Molestie amet ornare lorem nunc."
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Title Here",
+      "default": "Lorem ipsum dolor sit amet consectetur. Molestie amet ornare lorem nunc. Vestibulum auctor amet in odio. Bibendum commodo vel sed etiam lectus. Id lobortis tristique quam a sed nunc et. Lorem ipsum dolor sit amet consectetur. Molestie amet ornare lorem nunc. Vestibulum auctor amet in odio. Bibendum commodo vel sed etiam lectus. Id lobortis tristique quam a sed nunc et."
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Read more"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> About"
+    }
+  ]
+}
+{% endschema %}

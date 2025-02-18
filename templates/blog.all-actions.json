@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_tag_nav": true,
+        "article_per_page": 12,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true
+      }
+    },
+    "aaccbcd5-3567-40a9-ab8f-19b9e104d81f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21293897974078__aaccbcd5-3567-40a9-ab8f-19b9e104d81f-slide-1": {
+          "type": "slide",
+          "settings": {
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Slideshow",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "template--21293897974078__aaccbcd5-3567-40a9-ab8f-19b9e104d81f-slide-2": {
+          "type": "slide",
+          "settings": {
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Slideshow",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--21293897974078__aaccbcd5-3567-40a9-ab8f-19b9e104d81f-slide-1",
+        "template--21293897974078__aaccbcd5-3567-40a9-ab8f-19b9e104d81f-slide-2"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#fff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aaccbcd5-3567-40a9-ab8f-19b9e104d81f"
+  ]
+}
