@@ -7,7 +7,12 @@
             <source src="{{ section.settings.ac_hero_bg_video.sources[1].url }}" type="video/mp4" class="img-res">
           </video>
         {% else %}
-          <img src="{{ section.settings.ac_hero_bg_img | img_url : 'master' }}" class="img-res">
+          <picture>
+            {% if section.settings.mobile_ac_hero_bg_img != blank %}
+              <source media="(max-width:600px)" srcset="{{ section.settings.mobile_ac_hero_bg_img | img_url : 'master' }}">
+            {% endif %}
+            <img src="{{ section.settings.ac_hero_bg_img | img_url : 'master' }}" class="img-res">
+          </picture>
         {% endif %}
       </div>
       <div class="ac-inner-wrap">
@@ -87,6 +92,11 @@
       "type": "image_picker",
       "id": "ac_hero_bg_img",
       "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_ac_hero_bg_img",
+      "label": "Mobile Background Image"
     },
     {
       "type": "video",

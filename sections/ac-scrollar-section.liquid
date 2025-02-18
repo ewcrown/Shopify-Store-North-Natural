@@ -4,6 +4,16 @@
    background-repeat:no-repeat;
    background-size:cover;
   }
+
+  {% if section.settings.mobile_banner != blank %}
+    @media(max-width:600px){
+      .ac-scrollar-expanding-section {
+        background: {% if section.settings.mobile_banner != blank %}url('{{ section.settings.mobile_banner | img_url:'master' }}'){% else %}#fff{% endif %} !important;
+        background-repeat:no-repeat !important;
+        background-size:cover !important;
+       }
+    }
+  {% endif %}
 </style>
 
 <div class="ac-scrollar-expanding-section">
@@ -78,6 +88,11 @@
       "type": "image_picker",
       "id": "banner",
       "label": "Banner Here"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_banner",
+      "label": "Mobile Banner Here"
     },
     {
       "type": "text",

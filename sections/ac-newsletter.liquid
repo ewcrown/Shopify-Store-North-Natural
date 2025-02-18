@@ -14,7 +14,12 @@
         <div class="ac-news-inner-wrap">
           <div class="ac-news-banner">
             {% if section.settings.img != blank %}
-              <img src="{{ section.settings.img | img_url : 'master' }}" class="img-res">
+              <picture>
+                {% if section.settings.mobile_img != blank %}
+                  <source media="(max-width:600px)" srcset="{{ section.settings.mobile_img | img_url : 'master' }}">
+                {% endif %}
+                <img src="{{ section.settings.img | img_url : 'master' }}" class="img-res">
+              </picture>
             {% endif %}
             <div class="ac-news-banner-content">
               <h3 class="ac-news-banner-heading">Together, we can build a healthier world.</h3>
@@ -54,9 +59,14 @@
   "name": "<> Newsletter",
   "settings": [
     {
- "type": "image_picker",
-  "id": "img",
-  "label": "bg"
+      "type": "image_picker",
+      "id": "img",
+      "label": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_img",
+      "label": "Mobile Background"
     }
   ],
   "presets": [

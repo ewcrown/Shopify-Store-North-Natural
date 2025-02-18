@@ -19,7 +19,12 @@
           Your browser does not support the video tag.
         </video>
       {% else %}
-        <img src="{{ article.image | img_url : 'master' }}" class="img-res blog-img">
+        <picture>
+          {% if article.metafields.custom.mobile_image != blank %}
+            <source media="(max-width:600px)" srcset="{{ article.metafields.custom.mobile_image | img_url : 'master' }}">
+          {% endif %}
+          <img src="{{ article.image | img_url : 'master' }}" class="img-res blog-img">
+        </picture>
       {% endif %}
     {% endif %}
   </div>

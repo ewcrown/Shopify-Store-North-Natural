@@ -9,6 +9,19 @@ a {
   height: auto;
 }
 
+.desktop-hide {
+  display: none;
+}
+
+@media(max-width:600px) {
+  .desktop-hide {
+    display: block;
+  }
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
 /* hero */
 .ac-hero-wrap {
   position: relative;
